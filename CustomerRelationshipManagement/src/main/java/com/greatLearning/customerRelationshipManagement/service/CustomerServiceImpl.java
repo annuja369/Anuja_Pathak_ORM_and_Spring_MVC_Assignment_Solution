@@ -17,6 +17,7 @@ import com.greatLearning.customerRelationshipManagement.entity.Customer;
 @Repository
 public class CustomerServiceImpl implements CustomerService {
 	
+	private SessionFactory sessionFactory;
 
 		// create session
 		private Session session;
